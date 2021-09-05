@@ -14,7 +14,7 @@ Obs.: as conexões feitas nas portas do PIC, apesar de não estarem em ordem, se
 
 O código pode não ser compatível com outros PICs, mas a lógica pode ser aplicada da mesma forma. Os semáforos seguem o seguinte loop de acionamento: 
 
-Tempo Aceso | Semaforo 1 | Semaforo 2
+Tempo aceso | Semaforo 1 | Semaforo 2
 ------------|------------|-----------
 3s | RB1 (D1, verde) | RB2 (D4, vermelho)
 1s | RB3 (D5, amarelo) | RB2 (D4, vermelho)
